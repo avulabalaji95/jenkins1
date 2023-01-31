@@ -15,11 +15,11 @@ wp-content/backup-db/
 wp-content/backups/
 wp-content/blogs.dir/
 wp-content/cache/
-wp-content/upgrade/
+#wp-content/upgrade/
 wp-content/uploads/
 wp-content/wp-cache-config.php
 wp-content/index.php
-wp-content/plugins/hello.php
+#wp-content/plugins/hello.php
 wp-content/plugins/index.php
 wp-content/plugins/wp-security-audit-log
 
@@ -40,7 +40,7 @@ redirections.log
 
 
 # Temporary ignore parent theme
-/wp-content/themes/newcasinos-parent
+#/wp-content/themes/newcasinos-parent
 /.htpasswd
 
 temp.php
@@ -58,12 +58,12 @@ coverage
 .lock-wscript
 build/Release
 node_modules
-wp-content/themes/wpex-status-child/assets/node_modules
+#wp-content/themes/wpex-status-child/assets/node_modules
 npm-debug.log
 .sass-cache
 bower_components
 wp-content/themes/mrbet/grunt/source/*/lib/*
 license.txt
 readme.html
-wp-content/themes/twenty*/
+#wp-content/themes/twenty*/
 
