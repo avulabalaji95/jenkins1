@@ -20,10 +20,10 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'demo' );
+define( 'DB_NAME', 'demo1' );
 
 /** Database username */
-define( 'DB_USER', 'demo' );
+define( 'DB_USER', 'demo1' );
 
 /** Database password */
 define( 'DB_PASSWORD', 'Balu@1234' );
@@ -83,7 +83,13 @@ define( 'WP_DEBUG', false );
 
 /* Add any custom values between this line and the "stop editing" line. */
 
+define('FS_METHOD', 'direct');
+define('FS_CHMOD_DIR',0755);
+define('FS_CHMOD_FILE',0644);
 
+
+define('WP_SITEURL','http://43.205.126.118/');
+define('WP_HOME','http://43.205.126.118/');
 
 /* That's all, stop editing! Happy publishing. */
 
